@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date Difference</title>
+    <style>
+        #date_input {
+            width: 50%;
+            padding: 5px;
+            border: 1px solid grey;
+        }
+
+        #button {
+            padding: 5px;
+        }
+
+        .error {
+            color: #cc0000;
+        }
+
+        body, input, button {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <div>Dates (DD MM YYYY, DD MM YYYY)</div>
+        <div><input id="date_input" value="02 03 1985, 05 11 2017"/></div>
+    </p>
+    <p><div><button value="Calculate" id="button">Calculate</button></div></p>
+    <p id="output"></p>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
